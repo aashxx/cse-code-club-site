@@ -13,8 +13,8 @@ const Events = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla pariatur quos dolorem ab quas autem fugiat similique voluptates aut, molestias quod fugit laboriosam repudiandae magnam incidunt numquam nam ducimus. Quis, illo architecto.
             </p>
             {
-                EVENTS.map((event) => (
-                    <EventItem img={event.img} name={event.name} date={event.date} description={event.description} />
+                EVENTS.map((event, index) => (
+                    <EventItem key={index} img={event.img} name={event.name} date={event.date} description={event.description} />
                 ))
             }
         </section>

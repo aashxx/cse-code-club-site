@@ -21,8 +21,8 @@ const Gallery = () => {
             </Carousel>
             <div className='gallery-opts'>
               {
-                IMGS.map((img) => (
-                  <aside>
+                IMGS.map((img, index) => (
+                  <aside key={index}>
                     <img className='gallery-imgs' src={img} alt="NA" />
                   </aside>
                 ))
