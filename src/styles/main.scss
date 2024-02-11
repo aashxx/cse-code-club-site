@@ -269,12 +269,16 @@ $second-color: #5ba2c9;
     align-items: center;
     justify-content: center;
     padding-top: 200px;
-    gap: 20px;
+    gap: 40px;
     text-align: center;
     width: 100%;
 
     h2 {
         font-size: 4rem;
+    }
+
+    .event-defn {
+        width: 400px;
     }
 }
 
