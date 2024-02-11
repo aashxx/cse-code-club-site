@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillInstagram, AiFillGithub, AiFillLinkedin, AiOutlineArrowUp  } from 'react-icons/ai';
+import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -8,7 +8,7 @@ const Footer = () => {
       <div className='resume'>
         <img src="https://crescent.education/wp-content/themes/crescent/theme/images/logo.png" alt="BSACIST" />
         <div>
-          <Link to="/register" target='blank'>Register</Link>
+          <a href="https://linktr.ee/csecodingclub" target='blank'>Register</a>
           <a href="mailto:crescentcsecodingclub@gmail.com" target='blank'>Email</a>
         </div>
       </div>

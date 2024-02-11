@@ -21,7 +21,7 @@ const Navbar = ({openNav, setOpenNav}) => {
           <Link to="/events" onClick={() => setOpenNav(!openNav)}>Events</Link>
         </li>
         <li>
-          <Link to="/register" onClick={() => setOpenNav(!openNav)}>Register</Link>
+          <a href="https://linktr.ee/csecodingclub" onClick={() => setOpenNav(!openNav)} target='blank'>Register</a>
         </li>
         <li>
           <Link to="/about" onClick={() => setOpenNav(!openNav)}>About</Link>
