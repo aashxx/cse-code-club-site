@@ -1,6 +1,5 @@
 import React from 'react';
 import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
