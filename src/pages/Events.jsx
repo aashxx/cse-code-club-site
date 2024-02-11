@@ -9,16 +9,14 @@ const Events = () => {
             <h2>
                 Thrilling Events!
             </h2>
-            <p>
+            <p className='event-defn'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla pariatur quos dolorem ab quas autem fugiat similique voluptates aut, molestias quod fugit laboriosam repudiandae magnam incidunt numquam nam ducimus. Quis, illo architecto.
             </p>
-            <div>
-                {
-                    EVENTS.map((event) => (
-                        <EventItem img={event.img} name={event.name} date={event.date} description={event.description} />
-                    ))
-                }
-            </div>
+            {
+                EVENTS.map((event) => (
+                    <EventItem img={event.img} name={event.name} date={event.date} description={event.description} />
+                ))
+            }
         </section>
     </main>
   )

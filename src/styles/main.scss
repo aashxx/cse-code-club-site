@@ -271,17 +271,10 @@ $second-color: #5ba2c9;
     padding-top: 200px;
     gap: 20px;
     text-align: center;
+    width: 100%;
 
     h2 {
         font-size: 4rem;
-    }
-
-    p {
-        width: 500px;
-    }
-
-    div {
-        margin: 20px 0;
     }
 }
 
@@ -468,7 +461,7 @@ footer {
     }
 
     .event-item {
-        width: 372px;
+        width: auto;
         text-align: center;
         padding: 10px 4px;
         flex-wrap: wrap;
@@ -518,10 +511,11 @@ footer {
     }
 
     .events-page {
-        width: auto;
+        
+        padding: 200px 20px;
 
-        p {
-            padding: 0 50px;
+        .event-defn {
+            padding: 0 40px;
         }
     }
 
